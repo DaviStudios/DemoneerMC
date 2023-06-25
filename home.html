@@ -15,10 +15,13 @@
     
     #header {
       color: purple;
+      text-align: center;
+      margin-bottom: 20px;
     }
     
     #desc {
       color: white;
+      text-align: center;
     }
     
     #server-info-button {
@@ -27,11 +30,21 @@
       border: 2px solid white;
       padding: 10px 20px;
       cursor: pointer;
+      display: block;
+      margin: 20px auto;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background-color: white;
+      margin: 20px 0;
     }
   </style>
 </head>
 <body>
   <h1 id="header">NOVASMP</h1>
+  <hr>
   <div id="desc">
     Welcome to NovaSMP, a fun and engaging Minecraft Aternos server that promises endless excitement and adventure! Join our vibrant community of active players who are online every day, ready to embark on epic journeys and create unforgettable memories together. With a dedicated and passionate fanbase, NovaSMP has become a hub for Minecraft enthusiasts from all walks of life.
 
@@ -41,6 +54,7 @@ Whether you're a seasoned player or new to Minecraft, NovaSMP offers something f
 
 Join NovaSMP today and immerse yourself in a world of adventure, camaraderie, and creativity. Get ready to forge new friendships, showcase your skills, and experience the true essence of Minecraft within our fantastic community. We can't wait to see you in-game.
   </div>
-  <button id="server-info-button" onclick="window.location.href = 'info'">Server Info</button>
+  <hr>
+  <button id="server-info-button" onclick="window.location.href = 'info.html'">Server Info</button>
 </body>
 </html>
